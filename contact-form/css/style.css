@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.parent{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+   
+    /* max-height: 1000px; */
+  
+    
+}
+
+.chat{
+    background-color: rgb(17, 177, 209);
+    color: aliceblue;
+    text-align: center;
+    /* padding: 5% 4% 38% 4%; */
+    /* padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 300px; */
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: top;
+    height: 530px;
+    
+}
+.chat h2{
+    margin-top: 90px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.chat p{
+    margin: 20px;
+}
+.contact{
+    background-color: whitesmoke;
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: top;
+    height: 530px;
+}
+.input{
+    margin: 3%;
+    height: 30px;
+    width: 80%;
+    padding: 3%;
+    border-style: none ;
+    background-color: rgb(217, 215, 215);
+}
+textarea{
+    color: grey;
+    margin: 3%;
+    padding: 3%;
+    width: 80%;
+    background-color: rgb(217, 215, 215);
+    border-style: none ;  
+}
+button{
+    width: 35%;
+    height: 32px;
+    border-radius: 35px ;
+    border-style: none;
+    background-color: rgb(17, 177, 209);
+}
+.p-style{
+    font-size: small;
+
+}
+.h-contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5%;
+}

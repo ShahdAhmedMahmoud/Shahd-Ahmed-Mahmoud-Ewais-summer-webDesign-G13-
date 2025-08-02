@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+    <h2>Assignment 2</h2>
+    <hr>
+    <h2>Objectives</h2>
+    <ul>
+        <li>Learn the meaning of the following term:
+            <br>
+            HTML table  
+        </li>
+        <li>Learn to create an HTML table using TR , TD and TH tags. </li>
+        <li>Learn to use ROWSPAN and COLSPAN attributes.</li>
+    </ul>
+    <hr>
+    <h2>Creating HTML Tables</h2>
+    <p>This Assignment can be completed individually. Your Assignment is to create an HTML Table.</p>
+
+    <table border="5" width="80%"  align="center" cellpadding="10" cellspacing="5">
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="purple" align="center">
+                    <h2>Spring Term 2006 Afternoon Schedule</h2>
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>1:00</td>
+                <td rowspan="2" bgcolor="orange">Office</td>
+                <td></td>
+                <td bgcolor="orange" rowspan="2">Office</td>
+                <td rowspan="8" bgcolor="orange" >Office Hours by Appt</td>
+                <td rowspan="2" bgcolor="orange">Office</td>
+            </tr>
+            <tr>
+                <td>1:30</td>
+                <td rowspan="2" bgcolor="gray">Dept Meeting</td>
+            </tr>
+            <tr>
+                <td>2:00</td>
+                <td rowspan="3" bgcolor="green">MAT 108</td>
+                
+                <td rowspan="3" bgcolor="green">MAT 108</td>
+                <td rowspan="3" bgcolor="green">MAT 108</td>
+            </tr>
+            <tr>
+                <td>2:30</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:00</td>
+                <td rowspan="3" bgcolor="gray">EC Meeting</td>
+            </tr>
+            <tr>
+                <td>3:30</td>
+                <td bgcolor="purple" rowspan="3">CSC 205</td>
+                <td bgcolor="purple" rowspan="3">CSC 205</td>
+                <td bgcolor="purple" rowspan="3">CSC 205</td>
+            </tr>
+            <tr>
+                <td>4:00</td>
+                
+            </tr>
+            <tr>
+                <td>4:30</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
