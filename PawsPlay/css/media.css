@@ -1,0 +1,67 @@
+/*rule ==> @media*/
+/* type == print , screen , speetch  */
+/* condition ==> max-width , min-with , range */
+
+/* ==> 380  */
+
+/* 0 : 767 */
+@media (max-width: 767.98px) {
+    .card-lg {
+        background-color: maroon;
+        color: white;
+    }
+}
+
+/* 0 : 575 */
+@media (max-width: 575.98px) {
+    .card-lg {
+        background-color: goldenrod;
+        color: white;
+    }
+    .d-none-sm{
+        display: none;
+    }
+
+}
+
+/* 0 : 400 */
+@media (max-width:400px) {
+    .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .w-45,
+    .w-60,
+    .w-35 {
+        width: 100%;
+    }
+
+    .card-sm .w-35 {
+        width: 35%;
+    }
+
+    .card-sm .w-60 {
+        width: 60%;
+    }
+
+    .card-lg {
+        background-color: teal;
+        color: white;
+    }
+    .card-img{
+        width: 100%;   }
+
+
+}
+
+@media (min-width:800px){
+    .card-sm{
+        background-color: bisque;
+    }
+}
+
+@media (min-width: 300px) and (max-width:600px){
+    .card-sm{
+        background-color: lightblue;
+    }
+}
