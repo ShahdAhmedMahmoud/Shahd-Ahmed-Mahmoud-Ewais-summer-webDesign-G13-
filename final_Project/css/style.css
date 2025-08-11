@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.border-danger-subtle {
+    border-color: #e10b22 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.phone{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}

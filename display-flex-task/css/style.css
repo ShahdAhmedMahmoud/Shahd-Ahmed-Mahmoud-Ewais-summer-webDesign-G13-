@@ -133,7 +133,7 @@ nav h1{
 }
 .custom-filter-img:hover{
      object-fit: cover;
-    transform: rotate(-10deg) scale(1.1);
+    transform: rotate(-10deg) scale(1.5);
   
     /* filter: blur(4px); */
 }
@@ -154,4 +154,7 @@ nav h1{
 h2{
     margin-top : 10% ;
 
+}
+.overflow-hiddin{
+    overflow: hidden;
 }

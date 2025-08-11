@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container justify-content-between">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex">
+          <a class="navbar-brand" style="width: 20%" href="#">
+            <img src="imgs/logo.png" class="w-75" />
+          </a>
+          <a href="" class="phone">
+            <i class="fa-solid fa-phone fs-2 mt-3"></i>
+            <div class="d-flex flex-column">
+              <p>contact us 24/7</p>
+              <p>(+92) 3942 7879</p>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="me-5">
+              <form
+                class="d-flex me-5"
+                role="search"
+                style="
+                  background-color: #cdd0d15d;
+                  border-radius: 6px;
+                  max-width: 400px;
+                "
+              >
+                <select
+                  name="All Categories"
+                  id=""
+                  value="All Categories"
+                  class="border-0 bg-transparent fw-bold me-2"
+                >
+                  <option value="">All Categories</option>
+                  <optgroup value="Auto part" name="Auto part">
+                    <option value="" disabled>Auto part</option>
+                    <option value="">Accessories</option>
+                    <option value="">Car Care</option>
+                    <option value="">Car Electonics</option>
+                    <option value="">Equipment</option>
+                    <option value="">Lights</option>
+                  </optgroup>
+                  <optgroup>
+                    <option value="" disabled>Beauty and health</option>
+                    <option value="">Bages</option>
+                    <option value="">BB Creams</option>
+                    <option value="">body and Bath</option>
+                    <option value="">Hair Care</option>
+                  </optgroup>
+                </select>
+                <span class="mx-1">|</span>
+                <input
+                  class="form-control me-2 border-0 bg-transparent"
+                  type="search"
+                  placeholder="Search for products"
+                  aria-label="Search"
+                  style="width: 100px"
+                />
+                <button
+                  class="btn btn-outline-success text-white bg-black"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+            <div class="">
+              <select name="" id="" class="border-0 bg-transparent me-1">
+                <option value="English">English</option>
+                <option value="Español">Español</option>
+                <option value="Français">Français</option>
+                <option value="Português">Português</option>
+              </select>
+              <select name="" id="" class="border-0 bg-transparent me-4">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+              </select>
+            </div>
+            <div class="d-flex">
+              <a href="" class="me-4">
+                <i class="fa-regular fa-user fs-5 position-relative"> </i
+                >Account
+              </a>
+              <a href="" class="me-4">
+                <i class="fa-regular fa-heart fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-cart-shopping fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="container">
+      <a
+        class="btn  text-black bg-transparent border-top-0 border-start-0 border-bottom-0 border-black rounded-0"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        SHOP BY CATEGORIES
+      </a>
+  
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title bg-black text-white w-100 p-3" id="offcanvasExampleLabel">SHOP BY CATEGORIES</h5>
+         
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li><a href="">fashon</a></li>
+            <hr>
+            <li><a href="">Phone & Tablet</a></li>
+            <hr>
+            <li><a href="">Laptop & Computer</a></li>
+            <hr>
+            <li><a href="">Camera & photo</a></li>
+            <hr>
+            <li><a href="">Home & Decor</a></li>
+            <hr>
+            <li><a href="">Beauty & Health</a></li>
+            <hr>
+            <li><a href="">Game Accessories</a></li>
+            <hr>
+            <li><a href="">Autopart</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
