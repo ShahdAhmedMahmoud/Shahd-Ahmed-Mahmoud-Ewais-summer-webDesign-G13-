@@ -20,3 +20,162 @@ li{
     display: flex;
     justify-content: space-evenly;
 }
+a:hover   {
+    color: #e10b22;
+
+}
+.carousel-inner {
+  background-color: #84a7a9; 
+ 
+}
+.carousel-indicators [data-bs-target]
+
+ {
+   
+    text-indent: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+/* .bg-mintWhite{
+    background-color: #d1ae90;
+} */
+.btn-outline-dark{
+    background-color: white;
+}
+.btn-outline-dark:hover{
+    background-color: transparent;
+    
+}
+
+.bg-banner{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_20_banner1-demo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position-x:right ;
+    transition: all 0.3s ease;
+    /* height: 250px; */
+}
+
+.bg-banner:hover{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_19_banner1-mobile-demo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position-x:right ;
+    
+
+    
+    /* transform: scale(1.09); */
+}
+.bg-banner-2{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_22_banner2-demo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position-x:right ;
+    transition: all 0.3s ease;
+    /* height: 250px; */
+}
+.bg-banner-2:hover{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_21_banner2-mobile-demo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-position-x:right ;
+    
+
+    
+    /* transform: scale(1.09); */
+}
+.bg-banner-3{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_40_banner3-demo1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    transition: all 0.3s ease;
+    height: 250px;
+}
+.bg-banner-3:hover{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_39_banner3-mobile-demo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    
+
+    
+    /* transform: scale(1.09); */
+}
+.bg-banner-4{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_43_banner5-mobile-demo1.jpg);
+
+
+    
+    
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    transition: all 0.3s ease;
+    height: 250px;
+}
+.bg-banner-4:hover{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_44_banner5-demo1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    
+
+    
+    /* transform: scale(1.09); */
+}
+.bg-banner-5{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_42_banner4-demo1.jpg);
+
+
+    
+    
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    transition: all 0.3s ease;
+    height: 250px;
+}
+.bg-banner-5:hover{
+    background-image: url(../imgs/Merto\ –\ Elementor\ Multipurpose\ WooCommerce\ Theme/imgi_41_banner4-mobile-demo1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    background-position-x:right ;
+    
+
+    
+    /* transform: scale(1.09); */
+}
+
+.btn-outline-dark-banner{
+    background-color: transparent;
+    border: 1px solid black;
+
+}
+.btn-outline-dark-banner:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+
+}
+.overflowhiddin{
+    overflow: hidden;
+}
+
+i:hover{
+    color: rgb(234, 11, 11);
+}
+
+.img-hover:hover{
+    opacity: 0.9;
+
+}
+.logo-img {
+        width: 100px;
+    }

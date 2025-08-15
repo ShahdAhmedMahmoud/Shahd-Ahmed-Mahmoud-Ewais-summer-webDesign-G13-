@@ -17,7 +17,9 @@ function addUser() {
     usersList.push(obj);
     console.log(" User added successfully!");
     console.log("User added:", obj);
-    console.log("All users now:", [...usersList]);
+    console.log("All users now:",[...usersList] );
+
+    //
 
 }
 

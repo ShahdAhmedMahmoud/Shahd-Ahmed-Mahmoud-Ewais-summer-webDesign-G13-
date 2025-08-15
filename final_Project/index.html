@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-transparent">
-      <div class="container justify-content-between">
+  <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid justify-content-between">
         <button
           class="navbar-toggler"
           type="button"
@@ -29,7 +29,7 @@
           <a href="" class="phone">
             <i class="fa-solid fa-phone fs-2 mt-3"></i>
             <div class="d-flex flex-column">
-              <p>contact us 24/7</p>
+              <a href="contactUs.html">contact us 24/7</a>
               <p>(+92) 3942 7879</p>
             </div>
           </a>
@@ -137,9 +137,9 @@
       </div>
     </nav>
     <hr />
-    <div class="container">
+    <div class="container-fluid d-flex">
       <a
-        class="btn  text-black bg-transparent border-top-0 border-start-0 border-bottom-0 border-black rounded-0"
+        class="btn text-black bg-transparent border-top-0 border-start-0 border-bottom-0 border-black rounded-0"
         data-bs-toggle="offcanvas"
         href="#offcanvasExample"
         role="button"
@@ -147,7 +147,6 @@
       >
         SHOP BY CATEGORIES
       </a>
-  
 
       <div
         class="offcanvas offcanvas-start"
@@ -156,32 +155,565 @@
         aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title bg-black text-white w-100 p-3" id="offcanvasExampleLabel">SHOP BY CATEGORIES</h5>
-         
+          <h5
+            class="offcanvas-title bg-black text-white w-100 p-3"
+            id="offcanvasExampleLabel"
+          >
+            SHOP BY CATEGORIES
+          </h5>
         </div>
         <div class="offcanvas-body">
           <ul>
             <li><a href="">fashon</a></li>
-            <hr>
+            <hr />
             <li><a href="">Phone & Tablet</a></li>
-            <hr>
+            <hr />
             <li><a href="">Laptop & Computer</a></li>
-            <hr>
+            <hr />
             <li><a href="">Camera & photo</a></li>
-            <hr>
+            <hr />
             <li><a href="">Home & Decor</a></li>
-            <hr>
+            <hr />
             <li><a href="">Beauty & Health</a></li>
-            <hr>
+            <hr />
             <li><a href="">Game Accessories</a></li>
-            <hr>
+            <hr />
             <li><a href="">Autopart</a></li>
-
           </ul>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+         <a href="index.html"> Homepages</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle "
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="categories.html">Categories</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="">Products</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-flex">
+              <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          pages
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="m-2">
+        <a href="contactUs.html" class="">contact us</a>
+      </div>
+      <div class="m-2">
+        <a href="categories.html" class="">categories</a>
+      </div>
+      <div class="m-2">
+        <a href="index.html" class="">Home </a>
+      </div>
+        <div class="m-2">
+        <a href="details.html" class="">details </a>
+      </div>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-8 p-0">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active mt-3"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="mt-3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class="mt-3"
+              ></button>
+            </div>
+            <div class="carousel-inner text-center text-white">
+              <div class="carousel-item active" style="height: 468.26px">
+                <div class="container-fluid">
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-6 align-self-center">
+                        <p class="lead text-white fw-bolder fs-3">up To 40%</p>
+                        <h2 class="fs-2 lead text-white fw-bold">
+                          Body Lotion spf lab 50+ PA++++
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn btn-outline-dark border-0"
+                        >
+                          SHOP NOW
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <img
+                          src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_101_slide1-demo1.jpg"
+                          class="w-100"
+                          alt=""
+                          style="height: 500px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" style="height: 468.26px">
+                <div class="container-fluid">
+                  <div class=" ">
+                    <div class="row justify-content-between">
+                      <div class="col-6 align-self-center">
+                        <p class="lead text-white fw-bolder">up To 40%</p>
+                        <h2 class="fs-2 lead text-white fw-bold">
+                          Body Lotion spf lab 50+ PA++++
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn btn-outline-dark border-0"
+                        >
+                          SHOP NOW
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <img
+                          src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_102_slide2-demo1.jpg"
+                          class="w-100"
+                          alt=""
+                          style="height: 470px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" style="height: 468.26px">
+                <div class="container-fluid">
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-6 align-self-center">
+                        <p class="lead text-white fw-bolder">up To 40%</p>
+                        <h2 class="fs-2 lead text-white fw-bold">
+                          Body Lotion spf lab 50+ PA++++
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn btn-outline-dark border-0"
+                        >
+                          SHOP NOW
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <img
+                          src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_103_slide3-demo1.png"
+                          class="w-100"
+                          alt=""
+                          style="height: 470px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 p-0">
+          <div class="overflowhiddin">
+            <div class="bg-banner">
+              <div class="content-text align-self-center">
+                <span class="fs-6 ms-3 mt-5">BLACK FRIDAY</span>
+                <h2 class="ms-3">Big Sale</h2>
+                <h2 class="ms-3">Eyeshadow</h2>
+
+                <div class="bottom-description mt-3 ms-3">Over +100 items</div>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark-banner ms-3 mb-5"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="overflowhiddin">
+            <div class="bg-banner-2">
+              <div class="content-text align-self-center">
+                <span class="fs-6 ms-3 mt-5">NEW COLLECTION</span>
+                <h2 class="ms-3">Puffer Jacket</h2>
+                <h2 class="ms-3">30% off</h2>
+
+                <div class="bottom-description mt-3 ms-3">Over +100 items</div>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark-banner ms-3 mb-5"
+                >
+                  SHOP NOW
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <section class="container  mt-5">
+      <div class="row">
+        <div class="col-5 col-md-3 d-xl-flex">
+          <i class="fa-solid fa-truck text-secondary fs-1 icon me-2"></i>
+          <div class="content">
+            <p class="m-0">Fast, Free Shipping</p>
+            <p class="text-secondary">On order over $50</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 d-xl-flex">
+          <i class="fa-regular fa-clock text-secondary fs-1 me-2"></i>
+          <div class="content">
+            <p class="m-0">Next Day Delivery</p>
+            <p class="text-secondary">Free– spend over $99</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 d-xl-flex">
+          <i class="fa-solid fa-percent text-secondary fs-1 me-2"></i>
+          <div class="content">
+            <p class="m-0">Low Price Guarantee</p>
+            <p class="text-secondary">We offer competitive prices</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 d-xl-flex">
+          <i class="fa-regular fa-thumbs-up text-secondary fs-1 me-2"></i>
+          <div class="content">
+            <p class="m-0">Quality Guarantee</p>
+            <p class="text-secondary">We Guarantee Our Products</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-3 py-2 border border-4 border-dark text-center" >
+      <p>
+        Super discount for your <span class="fw-bold">first purchase</span>
+        <a href="" class="text-danger">COUPON25</a>
+        Use discount code in the checkout!
+      </p>
+    </section>
+
+    <div class="container mt-5">
+      <h2>Flash Deals</h2>
+      <div class="row">
+        <div class="col-6 col-sm-4 col-md-3 ps-0 pe-0  ">
+         
+         <div class=" border border-1 border-black ">
+             <img src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_31_furniture-6-300x300.jpg" class="w-75" alt="">
+             <div class="p-3">
+               <p class="mb-0 fs-6"><a href="" >14-inch Fasion Simplicity Quality Wall Clock, Home Decor</a></p>
+            <p class="mb-0"><span class="fw-bold">$50      </span><del class="text-secondary">$75</del></p>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+             </div>
+           
+         </div>
+            
+         
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 ps-0 pe-0 ">
+         
+         <div class=" border border-1 border-black ">
+             <img src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_62_electronic-30-6-300x300.jpg" class="w-75 " alt="">
+             <div class="p-3">
+               <p class="mb-0 fs-6"><a href="" >Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a></p>
+            <p class="mb-0 "><span class="fw-bold">$999</span><del class="text-secondary">$1,536</del></p>
+            <i class="fa-solid fa-star  " style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+             </div>
+           
+         </div>
+            
+         
+        </div>
+        <div class="col-6 col-sm-4 col-md-3  ps-0 pe-0   ">
+         
+         <div class=" border border-1 border-black ">
+             <img src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_63_electronic-14-2-300x300.jpg" class="w-75 " alt="">
+             <div class="p-3">
+               <p class="mb-0 fs-6"><a href="" >Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a></p>
+            <p class="mb-0 "><span class="fw-bold">$999</span><del class="text-secondary">$1,536</del></p>
+            <i class="fa-solid fa-star  " style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+             </div>
+           
+         </div>
+            
+         
+        </div>
+        <div class="col-6 col-sm-4 col-md-3  ps-0 pe-0   ">
+         
+         <div class=" border border-1 border-black ">
+             <img src="imgs/Merto – Elementor Multipurpose WooCommerce Theme/imgi_38_automotive-11-300x300.jpg" class="w-75 " alt="">
+             <div class="p-3">
+               <p class="mb-0 fs-6"><a href="" >Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</a></p>
+            <p class="mb-0 "><span class="fw-bold">$999</span><del class="text-secondary">$1,536</del></p>
+            <i class="fa-solid fa-star  " style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+            <i class="fa-solid fa-star" style="font-size:12px ;"></i>
+             </div>
+           
+         </div>
+            
+         
+        </div>
+        
+      </div>
+
+    </div>
+
+
+    <section class="container mt-5">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-3 p-0 mb-3">
+           <div class="overflowhiddin ">
+            <div class="bg-banner-3">
+              <div class="content-text " >
+                <h2 class="text-light text-capitalize text-center fs-1  ">SALE 10% OFF TIRES MICHELIN</h2>
+    
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-5 p-0 mb-3">
+           <div class="overflowhiddin ">
+            <div class="bg-banner-5">
+              <div class="content-text" >
+                <h2 class="text-danger text-capitalize text-center fs-1  align-self-end">SALE 10% OFF TIRES MICHELIN</h2>
+    
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-3 p-0 mb-3">
+           <div class="overflowhiddin ">
+            <div class="bg-banner-4">
+              <div class="content-text" >
+                <h2 class="text-white  text-center fs-3  ">Steals under $ 25</h2>
+    
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+     <div class="container-fluid bg-black text-white">
+      <div class="row">
+        <div class="col-12">
+          <img
+            src="imgs/Contact Us – Merto/imgi_56_logo-300x95.png"
+            class="logo-img text-white my-4"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-location-dot me-2"></i>29 SE 2nd Ave, Miami
+            Florida 33131, United States
+          </p>
+          <p></p>
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-envelope me-2"></i>
+            info@example.com
+          </p>
+        </div>
+        <div class="col-12">
+          <a>(+92) 39427879</a>
+        </div>
+        <div class="col-12 my-3">
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-facebook text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-tiktok text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-youtube text-white"></i
+          ></a>
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-instagram text-white"></i
+          ></a>
+        </div>
+        <div class="col-12 my-3">
+          <p class="fw-bold fs-2">Let’s keep in touch</p>
+        </div>
+        <div class="col-12 my-4">
+          <input
+            class="bg-transparent p-2 w-100 border border-secondary"
+            type="email"
+            name="mail"
+            placeholder="enter your email address"
+            required
+            id=""
+          />
+        </div>
+
+        <div class="col-4 my-3" >
+            <p class="ms-4">SHOPPING</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Offers</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">INFOMATION</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">About us</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Help</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">ACCOUNT</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white">Cart</a></li>
+                <li class="mb-2"><a href="" class="text-white">My account</a></li>
+                <li class="mb-2"><a href="" class="text-white">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white">Size Guide</a></li>
+            </Ul>
+
+        </div>
+
+
+       
+             
+             <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                <i class="fa-solid fa-phone me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Contact us</a>
+            </div>
+            <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                <i class="fa-solid fa-face-smile me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Help Center</a>
+            </div>
+            <div class="mb-4 col-12 col-md-4  border border-secondary py-3">
+                <i class="fa-solid fa-life-ring me-3 fs-1"></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Give Feedback</a>
+            </div>
+           
+        
+          
+       
+
+        <div class="col-12 p-3 d-flex justify-content-between align-items-center">
+            <p class="text-secondary">Copyright © Merto. All Rights Reserved</p>
+            <img src="imgs/Contact Us – Merto/imgi_58_payment-icons-1-500x51.png" class="w-25" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

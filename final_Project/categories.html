@@ -1,0 +1,858 @@
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid justify-content-between">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex">
+          <a class="navbar-brand" style="width: 20%" href="#">
+            <img src="imgs/logo.png" class="w-75" />
+          </a>
+          <a href="" class="phone">
+            <i class="fa-solid fa-phone fs-2 mt-3"></i>
+            <div class="d-flex flex-column">
+              <a href="contactUs.html">contact us 24/7</a>
+              <p>(+92) 3942 7879</p>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="me-5">
+              <form
+                class="d-flex me-5"
+                role="search"
+                style="
+                  background-color: #cdd0d15d;
+                  border-radius: 6px;
+                  max-width: 400px;
+                "
+              >
+                <select
+                  name="All Categories"
+                  id=""
+                  value="All Categories"
+                  class="border-0 bg-transparent fw-bold me-2"
+                >
+                  <option value="">All Categories</option>
+                  <optgroup value="Auto part" name="Auto part">
+                    <option value="" disabled>Auto part</option>
+                    <option value="">Accessories</option>
+                    <option value="">Car Care</option>
+                    <option value="">Car Electonics</option>
+                    <option value="">Equipment</option>
+                    <option value="">Lights</option>
+                  </optgroup>
+                  <optgroup>
+                    <option value="" disabled>Beauty and health</option>
+                    <option value="">Bages</option>
+                    <option value="">BB Creams</option>
+                    <option value="">body and Bath</option>
+                    <option value="">Hair Care</option>
+                  </optgroup>
+                </select>
+                <span class="mx-1">|</span>
+                <input
+                  class="form-control me-2 border-0 bg-transparent"
+                  type="search"
+                  placeholder="Search for products"
+                  aria-label="Search"
+                  style="width: 100px"
+                />
+                <button
+                  class="btn btn-outline-success text-white bg-black"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+            <div class="">
+              <select name="" id="" class="border-0 bg-transparent me-1">
+                <option value="English">English</option>
+                <option value="Español">Español</option>
+                <option value="Français">Français</option>
+                <option value="Português">Português</option>
+              </select>
+              <select name="" id="" class="border-0 bg-transparent me-4">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+              </select>
+            </div>
+            <div class="d-flex">
+              <a href="" class="me-4">
+                <i class="fa-regular fa-user fs-5 position-relative"> </i
+                >Account
+              </a>
+              <a href="" class="me-4">
+                <i class="fa-regular fa-heart fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-cart-shopping fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="container-fluid d-flex">
+      <a
+        class="btn text-black bg-transparent border-top-0 border-start-0 border-bottom-0 border-black rounded-0"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        SHOP BY CATEGORIES
+      </a>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5
+            class="offcanvas-title bg-black text-white w-100 p-3"
+            id="offcanvasExampleLabel"
+          >
+            SHOP BY CATEGORIES
+          </h5>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li><a href="">fashon</a></li>
+            <hr />
+            <li><a href="">Phone & Tablet</a></li>
+            <hr />
+            <li><a href="">Laptop & Computer</a></li>
+            <hr />
+            <li><a href="">Camera & photo</a></li>
+            <hr />
+            <li><a href="">Home & Decor</a></li>
+            <hr />
+            <li><a href="">Beauty & Health</a></li>
+            <hr />
+            <li><a href="">Game Accessories</a></li>
+            <hr />
+            <li><a href="">Autopart</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="index.html"> Homepages</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle "
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="categories.html">Categories</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="">Products</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-flex">
+          <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          pages
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="m-2">
+        <a href="contactUs.html" class="">contact us</a>
+      </div>
+      <div class="m-2">
+        <a href="categories.html" class="">categories</a>
+      </div>
+      <div class="m-2">
+        <a href="index.html" class="">Home </a>
+      </div>
+        <div class="m-2">
+        <a href="details.html" class="">details </a>
+      </div>
+
+      </div>
+
+
+
+    </div>
+
+
+        <div class="container my-5">
+        <div class="d-flex my-4">
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('All')">All</button>
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('autopart')">autopart</button>
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('health')">Health and beauty</button>
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('electronic')">electronic</button>
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('fashon')">fashion</button>
+            <button class="btn btn-outline-secondary"
+              onclick="handleFilter('game')">Game Accessories</button>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Autopart 1"
+                 data-image="imgs/Autopart – Merto/imgi_26_cat-13.jpg"
+                 data-description="This is a brief description of Autopart 1. It is a high-quality product for your car.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_26_cat-13.jpg" class="card-img-top" alt="Autopart 1">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-12 col-md-2 categories" data-category="game">
+              <a href="#" class="product-link"
+                 data-name="Game Controller"
+                 data-image="imgs/Game Accessories – Merto/imgi_27_electronic-38-300x300.jpg"
+                 data-description="A detailed description for the game controller. It has great features and an ergonomic design.">
+                <div class="card">
+                    <img src="imgs/Game Accessories – Merto/imgi_27_electronic-38-300x300.jpg" class="card-img-top" alt="Game Controller">
+                    <div class="card-body">
+                        <h4>game</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-12 col-md-2 categories" data-category="game">
+              <a href="#" class="product-link"
+                 data-name="Gaming Headset"
+                 data-image="imgs/Game Accessories – Merto/imgi_32_electronic-5-300x300.jpg"
+                 data-description="High-quality gaming headset with clear audio and a comfortable fit.">
+                <div class="card">
+                    <img src="imgs/Game Accessories – Merto/imgi_32_electronic-5-300x300.jpg" class="card-img-top" alt="Gaming Headset">
+                    <div class="card-body">
+                        <h4>game</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="game">
+              <a href="#" class="product-link"
+                 data-name="Wireless Mouse"
+                 data-image="imgs/Game Accessories – Merto/imgi_28_electronic-35-300x300.jpg"
+                 data-description="A fast and responsive wireless mouse for all your gaming needs.">
+                <div class="card">
+                    <img src="imgs/Game Accessories – Merto/imgi_28_electronic-35-300x300.jpg" class="card-img-top" alt="Wireless Mouse">
+                    <div class="card-body">
+                        <h4>game</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="game">
+              <a href="#" class="product-link"
+                 data-name="Gaming Keyboard"
+                 data-image="imgs/Game Accessories – Merto/imgi_30_electronic-36-300x300.jpg"
+                 data-description="A mechanical gaming keyboard with customizable RGB lighting.">
+                <div class="card">
+                    <img src="imgs/Game Accessories – Merto/imgi_30_electronic-36-300x300.jpg" class="card-img-top" alt="Gaming Keyboard">
+                    <div class="card-body">
+                        <h4>game</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Seat Cover"
+                 data-image="imgs/Autopart – Merto/imgi_26_cat-13.jpg"
+                 data-description="Stylish and durable car seat cover to protect your car's interior.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_26_cat-13.jpg" class="card-img-top" alt="Car Seat Cover">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="fashon">
+              <a href="#" class="product-link"
+                 data-name="Stylish Jacket"
+                 data-image="imgs/Electronic – Merto/imgi_96_fashion-5-1024x1024.jpg"
+                 data-description="A fashionable jacket perfect for any season.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_96_fashion-5-1024x1024.jpg" class="card-img-top" alt="Stylish Jacket">
+                    <div class="card-body">
+                        <h4>fashon</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-12 col-md-2 categories" data-category="fashon">
+              <a href="#" class="product-link"
+                 data-name="Men's Hoodie"
+                 data-image="imgs/Electronic – Merto/imgi_17_fashion-8-300x300.jpg"
+                 data-description="Comfortable men's hoodie, great for casual wear.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_17_fashion-8-300x300.jpg" class="card-img-top" alt="Men's Hoodie">
+                    <div class="card-body">
+                        <h4>fashon</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="fashon">
+              <a href="#" class="product-link"
+                 data-name="Trendy T-shirt"
+                 data-image="imgs/Electronic – Merto/imgi_14_fashion-15-4-300x300.jpg"
+                 data-description="A modern and trendy T-shirt for everyday style.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_14_fashion-15-4-300x300.jpg" class="card-img-top" alt="Trendy T-shirt">
+                    <div class="card-body">
+                        <h4>fashon</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="fashon">
+              <a href="#" class="product-link"
+                 data-name="Casual Shirt"
+                 data-image="imgs/Electronic – Merto/imgi_15_fashion-18-300x300.jpg"
+                 data-description="A simple, comfortable casual shirt for men.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_15_fashion-18-300x300.jpg" class="card-img-top" alt="Casual Shirt">
+                    <div class="card-body">
+                        <h4>fashon</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Tire"
+                 data-image="imgs/Autopart – Merto/imgi_26_cat-13.jpg"
+                 data-description="High-performance car tire for better grip and safety.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_26_cat-13.jpg" class="card-img-top" alt="Car Tire">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Skincare Set"
+                 data-image="imgs/Beauty & Health – Merto/imgi_22_cosmetic-cat-8.jpg"
+                 data-description="A complete skincare set for a healthy and glowing skin.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_22_cosmetic-cat-8.jpg" class="card-img-top" alt="Skincare Set">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Electronic Watch"
+                 data-image="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/electronic-30-5-300x300.jpg"
+                 data-description="A modern electronic watch with multiple features.">
+                <div class="card">
+                    <img src="https://merto-be87.kxcdn.com/merto/wp-content/uploads/2024/05/electronic-30-5-300x300.jpg" class="card-img-top" alt="Electronic Watch">
+                    <div class="card-body">
+                        <h4>electronic watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Battery"
+                 data-image="imgs/Autopart – Merto/imgi_31_automotive-13-300x300.jpg"
+                 data-description="A long-lasting car battery for reliable performance.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_31_automotive-13-300x300.jpg" class="card-img-top" alt="Car Battery">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Nail Polish"
+                 data-image="imgs/Beauty & Health – Merto/imgi_24_cosmetic-cat-12.jpg"
+                 data-description="A collection of colorful and vibrant nail polish bottles.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_24_cosmetic-cat-12.jpg" class="card-img-top" alt="Nail Polish">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Perfume Set"
+                 data-image="imgs/Beauty & Health – Merto/imgi_25_cosmetic-cat-7.jpg"
+                 data-description="An elegant perfume set for a luxurious experience.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_25_cosmetic-cat-7.jpg" class="card-img-top" alt="Perfume Set">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Lipstick Set"
+                 data-image="imgs/Beauty & Health – Merto/imgi_32_cosmetics-34-300x300.jpg"
+                 data-description="A complete lipstick set with various shades.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_32_cosmetics-34-300x300.jpg" class="card-img-top" alt="Lipstick Set">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Makeup Brush Set"
+                 data-image="imgs/Beauty & Health – Merto/imgi_33_cosmetic-1-300x300.jpg"
+                 data-description="A professional makeup brush set for flawless application.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_33_cosmetic-1-300x300.jpg" class="card-img-top" alt="Makeup Brush Set">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="health">
+              <a href="#" class="product-link"
+                 data-name="Moisturizing Cream"
+                 data-image="imgs/Beauty & Health – Merto/imgi_41_cosmetic-23-300x300.jpg"
+                 data-description="A moisturizing cream to keep your skin hydrated all day.">
+                <div class="card">
+                    <img src="imgs/Beauty & Health – Merto/imgi_41_cosmetic-23-300x300.jpg" class="card-img-top" alt="Moisturizing Cream">
+                    <div class="card-body">
+                        <h4>Health and care</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Wax"
+                 data-image="imgs/Autopart – Merto/imgi_41_autopart-5-300x300.jpg"
+                 data-description="High-quality car wax for a shiny and protective finish.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_41_autopart-5-300x300.jpg" class="card-img-top" alt="Car Wax">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Smartwatch"
+                 data-image="imgs/Electronic – Merto/imgi_26_electronic-31-300x300.jpg"
+                 data-description="A stylish smartwatch with fitness tracking and notifications.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_26_electronic-31-300x300.jpg" class="card-img-top" alt="Smartwatch">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Wireless Earbuds"
+                 data-image="imgs/Electronic – Merto/imgi_27_electronic-18-300x300.jpg"
+                 data-description="Wireless earbuds with high-quality sound and a long battery life.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_27_electronic-18-300x300.jpg" class="card-img-top" alt="Wireless Earbuds">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Bluetooth Speaker"
+                 data-image="imgs/Electronic – Merto/imgi_28_electronic-22-300x300.jpg"
+                 data-description="A portable Bluetooth speaker with powerful sound.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_28_electronic-22-300x300.jpg" class="card-img-top" alt="Bluetooth Speaker">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Smart Scale"
+                 data-image="imgs/Electronic – Merto/imgi_24_electronic-9-300x300.jpg"
+                 data-description="A smart scale that tracks your body composition and connects to your phone.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_24_electronic-9-300x300.jpg" class="card-img-top" alt="Smart Scale">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Portable Charger"
+                 data-image="imgs/Electronic – Merto/imgi_23_electronic-51-300x300.jpg"
+                 data-description="A portable charger to keep your devices powered on the go.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_23_electronic-51-300x300.jpg" class="card-img-top" alt="Portable Charger">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="electronic">
+              <a href="#" class="product-link"
+                 data-name="Headphones"
+                 data-image="imgs/Electronic – Merto/imgi_31_electronic-16-1-300x300.jpg"
+                 data-description="High-quality over-ear headphones with noise-cancellation.">
+                <div class="card">
+                    <img src="imgs/Electronic – Merto/imgi_31_electronic-16-1-300x300.jpg" class="card-img-top" alt="Headphones">
+                    <div class="card-body">
+                        <h4>electronic Watches</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Brakes"
+                 data-image="imgs/Autopart – Merto/imgi_24_cat-9.jpg"
+                 data-description="Durable car brakes for maximum safety and control.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_24_cat-9.jpg" class="card-img-top" alt="Car Brakes">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Engine"
+                 data-image="imgs/Autopart – Merto/imgi_28_automotive-11-300x300.jpg"
+                 data-description="A powerful car engine for enhanced performance.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_28_automotive-11-300x300.jpg" class="card-img-top" alt="Car Engine">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Filter"
+                 data-image="imgs/Autopart – Merto/imgi_29_autopart-1-300x300.jpg"
+                 data-description="A high-quality car filter to keep your engine clean.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_29_autopart-1-300x300.jpg" class="card-img-top" alt="Car Filter">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-2 categories" data-category="autopart">
+              <a href="#" class="product-link"
+                 data-name="Car Light"
+                 data-image="imgs/Autopart – Merto/imgi_25_cat-12.jpg"
+                 data-description="A bright and efficient car light for better visibility.">
+                <div class="card">
+                    <img src="imgs/Autopart – Merto/imgi_25_cat-12.jpg" class="card-img-top" alt="Car Light">
+                    <div class="card-body">
+                        <h4>autopart</h4>
+                    </div>
+                </div>
+              </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid bg-black text-white">
+      <div class="row">
+        <div class="col-12">
+          <img
+            src="imgs/Contact Us – Merto/imgi_56_logo-300x95.png"
+            class="logo-img text-white my-4"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-location-dot me-2"></i>29 SE 2nd Ave, Miami
+            Florida 33131, United States
+          </p>
+          <p></p>
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-envelope me-2"></i>
+            info@example.com
+          </p>
+        </div>
+        <div class="col-12">
+          <a>(+92) 39427879</a>
+        </div>
+        <div class="col-12 my-3">
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-facebook text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-tiktok text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-youtube text-white"></i
+          ></a>
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-instagram text-white"></i
+          ></a>
+        </div>
+        <div class="col-12 my-3">
+          <p class="fw-bold fs-2">Let’s keep in touch</p>
+        </div>
+        <div class="col-12 my-4">
+          <input
+            class="bg-transparent p-2 w-100 border border-secondary"
+            type="email"
+            name="mail"
+            placeholder="enter your email address"
+            required
+            id=""
+          />
+        </div>
+
+        <div class="col-4 my-3" >
+            <p class="ms-4">SHOPPING</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Offers</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">INFOMATION</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">About us</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Help</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">ACCOUNT</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white">Cart</a></li>
+                <li class="mb-2"><a href="" class="text-white">My account</a></li>
+                <li class="mb-2"><a href="" class="text-white">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white">Size Guide</a></li>
+            </Ul>
+
+        </div>
+
+
+              
+                <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                  <i class="fa-solid fa-phone me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                  <br>
+              <a href="cotactUs.html" class="me-3 text-white " >Contact us</a>
+              </div>
+              <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                  <i class="fa-solid fa-face-smile me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                  <br>
+              <a href="cotactUs.html" class="me-3 text-white " >Help Center</a>
+              </div>
+              <div class="mb-4 col-12 col-md-4  border border-secondary py-3">
+                  <i class="fa-solid fa-life-ring me-3 fs-1"></i><span>Didn't find what you were looking for?</span>
+                  <br>
+              <a href="cotactUs.html" class="me-3 text-white " >Give Feedback</a>
+              </div>
+              
+          
+        
+
+        <div class="col-12 p-3 d-flex justify-content-between align-items-center">
+            <p class="text-secondary">Copyright © Merto. All Rights Reserved</p>
+            <img src="imgs/Contact Us – Merto/imgi_58_payment-icons-1-500x51.png" class="w-25" alt="">
+        </div>
+      </div>
+    </div>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

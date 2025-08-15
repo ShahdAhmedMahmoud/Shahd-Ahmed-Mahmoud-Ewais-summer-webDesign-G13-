@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid justify-content-between">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex">
+          <a class="navbar-brand" style="width: 20%" href="#">
+            <img src="imgs/logo.png" class="w-75" />
+          </a>
+          <a href="" class="phone">
+            <i class="fa-solid fa-phone fs-2 mt-3"></i>
+            <div class="d-flex flex-column">
+              <a href="contactUs.html">contact us 24/7</a>
+              <p>(+92) 3942 7879</p>
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="me-5">
+              <form
+                class="d-flex me-5"
+                role="search"
+                style="
+                  background-color: #cdd0d15d;
+                  border-radius: 6px;
+                  max-width: 400px;
+                "
+              >
+                <select
+                  name="All Categories"
+                  id=""
+                  value="All Categories"
+                  class="border-0 bg-transparent fw-bold me-2"
+                >
+                  <option value="">All Categories</option>
+                  <optgroup value="Auto part" name="Auto part">
+                    <option value="" disabled>Auto part</option>
+                    <option value="">Accessories</option>
+                    <option value="">Car Care</option>
+                    <option value="">Car Electonics</option>
+                    <option value="">Equipment</option>
+                    <option value="">Lights</option>
+                  </optgroup>
+                  <optgroup>
+                    <option value="" disabled>Beauty and health</option>
+                    <option value="">Bages</option>
+                    <option value="">BB Creams</option>
+                    <option value="">body and Bath</option>
+                    <option value="">Hair Care</option>
+                  </optgroup>
+                </select>
+                <span class="mx-1">|</span>
+                <input
+                  class="form-control me-2 border-0 bg-transparent"
+                  type="search"
+                  placeholder="Search for products"
+                  aria-label="Search"
+                  style="width: 100px"
+                />
+                <button
+                  class="btn btn-outline-success text-white bg-black"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+            <div class="">
+              <select name="" id="" class="border-0 bg-transparent me-1">
+                <option value="English">English</option>
+                <option value="Español">Español</option>
+                <option value="Français">Français</option>
+                <option value="Português">Português</option>
+              </select>
+              <select name="" id="" class="border-0 bg-transparent me-4">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+              </select>
+            </div>
+            <div class="d-flex">
+              <a href="" class="me-4">
+                <i class="fa-regular fa-user fs-5 position-relative"> </i
+                >Account
+              </a>
+              <a href="" class="me-4">
+                <i class="fa-regular fa-heart fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-cart-shopping fs-5 position-relative">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle badge fs-6"
+                    style="width: 18px; height: 18px"
+                  >
+                    <span
+                      class="position-absolute top-50 translate-middle"
+                      style="width: 5px; height: 5px; font-size: x-small"
+                      >0</span
+                    >
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="container-fluid d-flex">
+      <a
+        class="btn text-black bg-transparent border-top-0 border-start-0 border-bottom-0 border-black rounded-0"
+        data-bs-toggle="offcanvas"
+        href="#offcanvasExample"
+        role="button"
+        aria-controls="offcanvasExample"
+      >
+        SHOP BY CATEGORIES
+      </a>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5
+            class="offcanvas-title bg-black text-white w-100 p-3"
+            id="offcanvasExampleLabel"
+          >
+            SHOP BY CATEGORIES
+          </h5>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li><a href="">fashon</a></li>
+            <hr />
+            <li><a href="">Phone & Tablet</a></li>
+            <hr />
+            <li><a href="">Laptop & Computer</a></li>
+            <hr />
+            <li><a href="">Camera & photo</a></li>
+            <hr />
+            <li><a href="">Home & Decor</a></li>
+            <hr />
+            <li><a href="">Beauty & Health</a></li>
+            <hr />
+            <li><a href="">Game Accessories</a></li>
+            <hr />
+            <li><a href="">Autopart</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+         <a href="index.html"> Homepages</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle "
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="categories.html">Categories</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="font-size: 15px;"
+        >
+          <a href="">Products</a>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-flex">
+              <div class="btn-group">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          pages
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      <div class="m-2">
+        <a href="contactUs.html" class="">contact us</a>
+      </div>
+      <div class="m-2">
+        <a href="categories.html" class="">categories</a>
+      </div>
+      <div class="m-2">
+        <a href="index.html" class="">Home </a>
+      </div>
+
+      </div>
+
+
+
+    </div>
+    <hr />
+    <div class="container my-5">
+      <h2 class="text-center">Contact us</h2>
+      <p class="text-secondary text-center">
+        34 Main Street, Los Angeles 9021 United States
+      </p>
+    </div>
+    <div class="container my-3">
+      <h2 class="text-center">Do you have some questions?</h2>
+    </div>
+    <div class="container">
+      <p id="form-message" class="text-center"></p>
+      <form action="" class="row gy-4 my-4" id="myForm" autocomplete="off">
+        <div class="col-12 col-md-6">
+          <input
+            class="form-control"
+            type="text"
+            name=""
+            id="userName"
+            placeholder="enter your name"
+          />
+          <p class="text-danger mb-0"></p>
+        </div>
+        <div class="col-12 col-md-6">
+          <input
+            class="form-control"
+            type="email"
+            name=""
+            id="userEmail"
+            placeholder="enter your email"
+          />
+          <p class="text-danger mb-0"></p>
+        </div>
+
+        <div class="col-12">
+          <input
+            class="form-control"
+            type="text"
+            name=""
+            id="subject"
+            placeholder="Subject *"
+          />
+          <p class="text-danger mb-0"></p>
+        </div>
+        <div class="col-12">
+          <textarea
+            class="form-control"
+            type="text"
+            name=""
+            id="msg"
+            placeholder="Message"
+            style="height: 200px"
+          ></textarea>
+        </div>
+
+        <div class="mb-4">
+          <button type="submit" class="col-12 btn bg-dark text-white">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container-fluid">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.69000255124!2d-118.41173260000001!3d34.02047895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z2YTZiNizINij2YbYrNmE2YjYs9iMINmD2KfZhNmK2YHZiNix2YbZitin2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2seg!4v1755187749972!5m2!1sar!2seg"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="container">
+      <h2 class="fw-bold text-center">Stores around the world</h2>
+      <div class="row my-4">
+        <div class="col-12 col-md-4">
+          <img
+            src="imgs/Contact Us – Merto/imgi_53_about-2-300x195.jpg"
+            class="w-100 border border-black border-1 rounded-3 img-hover"
+            alt=""
+          />
+          <div class="content">
+            <h4 class="fw-bold">Los Angeles</h4>
+            <p class="text-secondary">
+              34 Main Street, Los Angeles 9021 United States
+            </p>
+            <p>+02 1234 567 88</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="imgs/Contact Us – Merto/imgi_54_about-3-300x195.jpg"
+            class="w-100 border border-black border-1 rounded-3 img-hover"
+            alt=""
+          />
+          <div class="content">
+            <h4 class="fw-bold">New York</h4>
+            <p class="text-secondary mb-0">
+              515 Broadway 10015 New York United States
+            </p>
+            <p>+49 1234 567 88</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="imgs/Contact Us – Merto/imgi_55_about-4-300x195.jpg"
+            class="w-100 border border-black border-1 rounded-3 img-hover"
+            alt=""
+          />
+          <div class="content">
+            <h4 class="fw-bold">California</h4>
+            <p class="text-secondary mb-0">
+              1000 California St 68114 Omaha United States
+            </p>
+            <p>+44 1234 567 88</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid bg-black text-white">
+      <div class="row">
+        <div class="col-12">
+          <img
+            src="imgs/Contact Us – Merto/imgi_56_logo-300x95.png"
+            class="logo-img text-white my-4"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-location-dot me-2"></i>29 SE 2nd Ave, Miami
+            Florida 33131, United States
+          </p>
+          <p></p>
+        </div>
+        <div class="col-12">
+          <p class="text-secondary">
+            <i class="fa-solid fa-envelope me-2"></i>
+            info@example.com
+          </p>
+        </div>
+        <div class="col-12">
+          <a>(+92) 39427879</a>
+        </div>
+        <div class="col-12 my-3">
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-facebook text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-tiktok text-white"></i
+          ></a>
+
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-square-youtube text-white"></i
+          ></a>
+          <a href="" class="me-3"
+            ><i class="fa-brands fa-instagram text-white"></i
+          ></a>
+        </div>
+        <div class="col-12 my-3">
+          <p class="fw-bold fs-2">Let’s keep in touch</p>
+        </div>
+        <div class="col-12 my-4">
+          <input
+            class="bg-transparent p-2 w-100 border border-secondary"
+            type="email"
+            name="mail"
+            placeholder="enter your email address"
+            required
+            id=""
+          />
+        </div>
+
+        <div class="col-4 my-3" >
+            <p class="ms-4">SHOPPING</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Offers</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">INFOMATION</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white  ">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Shop by Brand</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">About us</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Help</a></li>
+                <li class="mb-2"><a href="" class="text-white  ">Size Guide</a></li>
+            </Ul>
+
+        </div>
+        <div class="col-4 my-3" >
+            <p class="ms-4">ACCOUNT</p>
+            <Ul class="unorderList ">
+                <li class="mb-2"><a href="" class="text-white">Cart</a></li>
+                <li class="mb-2"><a href="" class="text-white">My account</a></li>
+                <li class="mb-2"><a href="" class="text-white">Wishlist</a></li>
+                <li class="mb-2"><a href="" class="text-white">Track Order</a></li>
+                <li class="mb-2"><a href="" class="text-white">Size Guide</a></li>
+            </Ul>
+
+        </div>
+
+
+       
+             
+             <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                <i class="fa-solid fa-phone me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Contact us</a>
+            </div>
+            <div class="mb-4 col-12 col-md-4 border border-secondary py-3">
+                <i class="fa-solid fa-face-smile me-3 fs-1 "></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Help Center</a>
+            </div>
+            <div class="mb-4 col-12 col-md-4  border border-secondary py-3">
+                <i class="fa-solid fa-life-ring me-3 fs-1"></i><span>Didn't find what you were looking for?</span>
+                <br>
+            <a href="cotactUs.html" class="me-3 text-white " >Give Feedback</a>
+            </div>
+           
+        
+          
+       
+
+        <div class="col-12 p-3 d-flex justify-content-between align-items-center">
+            <p class="text-secondary">Copyright © Merto. All Rights Reserved</p>
+            <img src="imgs/Contact Us – Merto/imgi_58_payment-icons-1-500x51.png" class="w-25" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
